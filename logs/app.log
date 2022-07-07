@@ -1,1 +1,4 @@
-2022-07-07 14:05:52,963 TRACE FileReader [main] Process
+2022-07-07 15:39:03,112 TRACE FileReader [main] Process started
+2022-07-07 15:39:16,325 TRACE FileReader [main] File selected
+2022-07-07 15:39:16,405 TRACE FileReader [main] File loaded
+2022-07-07 15:39:16,406 TRACE FileReader [main] Done

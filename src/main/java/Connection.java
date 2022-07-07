@@ -1,7 +1,15 @@
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
+
 public class Connection {
+    @NotNull
+    @Size(min = 2)
     String name;
+    @NotNull
     String url;
+    @NotNull
     String user;
+    @NotNull
     String pass;
 
     public Connection() {
@@ -15,17 +23,14 @@ public class Connection {
     }
 
     public String getName() {
-
         return name;
     }
 
     public String getUrl() {
-
         return url;
     }
 
     public String getUser() {
-
         return user;
     }
 
